@@ -7,11 +7,14 @@ use App\Entity\Emprunts;
 use App\Entity\Genre;
 use App\Entity\Livre;
 use App\Entity\User;
+
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Persistence\ObjectManager;
 use Doctrine\Persistence\ManagerRegistry;
+
 use Faker\Factory as FakerFactory;
 use Faker\Generator as FakerGenerator;
+
 use Symfony\Component\PasswordHasher\Hasher\UserPasswordHasherInterface;
 
 class AppFixtures extends Fixture
